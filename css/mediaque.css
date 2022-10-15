@@ -136,6 +136,30 @@ length page media query
 
 @media (min-width:320px) and (max-width:365px)
 {
+
+    /* --------scroll bar style------- */
+
+    ::-webkit-scrollbar
+    {
+        width: 5px;
+       
+    }
+    ::-webkit-scrollbar-track
+    {
+        background:rgb(5, 216, 202);
+        border-radius: 5px;
+    }
+
+    ::-webkit-scrollbar-thumb
+    {
+        background: #000;
+        border-radius: 5px;
+    }
+    
+
+    /* --------scroll bar style------- */
+
+
     .sidebar-btn
     {
        
@@ -196,13 +220,35 @@ length page media query
         left: -350px;
         width: 55%;
         height: 480px;
-        overflow: scroll;
+        overflow-y: scroll;
         margin-left: 0;
     }
 }
 @media (min-width:365px) and (max-width:542px)
 {
     
+/* --------scroll bar style------- */
+
+::-webkit-scrollbar
+{
+    width: 5px;
+   
+}
+::-webkit-scrollbar-track
+{
+    background:rgb(5, 216, 202);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background: #000;
+    border-radius: 5px;
+}
+
+
+/* --------scroll bar style------- */
+
     .sidebar-btn i
     {
         display: block;
@@ -256,13 +302,36 @@ length page media query
         left: -350px;
         width: 55%;
         height: 480px;
-        overflow: scroll;
+        overflow-y: scroll;
         margin-left: 0;
     }
 }
 
 @media (min-width:543px) and (max-width:768px)
 {
+
+/* --------scroll bar style------- */
+
+::-webkit-scrollbar
+{
+    width: 5px;
+   
+}
+::-webkit-scrollbar-track
+{
+    background:rgb(5, 216, 202);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background: #000;
+    border-radius: 5px;
+}
+
+
+/* --------scroll bar style------- */
+
     .sidebar-btn
     {
        
@@ -308,13 +377,36 @@ length page media query
         left: -350px;
         width: 40%;
         height: 480px;
-        overflow: scroll;
+        overflow-y: scroll;
         margin-left: 0;
     }
 }
 
 @media (min-width:769px) and (max-width:960px)
 {
+
+
+/* --------scroll bar style------- */
+
+::-webkit-scrollbar
+{
+    width: 5px;
+   
+}
+::-webkit-scrollbar-track
+{
+    background:rgb(5, 216, 202);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background: #000;
+    border-radius: 5px;
+}
+
+
+/* --------scroll bar style------- */
     
     .sidebar-btn i
     {
@@ -346,7 +438,7 @@ length page media query
         left: -350px;
         width: 30%;
         height: 480px;
-        overflow: scroll;
+        overflow-y: scroll;
         margin-left: 0;
     }
 }
