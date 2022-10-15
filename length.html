@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Length</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaque.css">
+
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.css">
+
+
+</head>
+
+<body>
+
+    <section class="main common-background">
+        <div class="sidebar-btn">
+            <i class="fa-solid fa-bars" id="sliderbtn"></i>
+            <i class="fa-solid fa-xmark" id="sliderclosebtn"></i>
+        </div>
+        <div class="converter-container common-container">
+            <div class="common-heading">
+                <h2>Length conversion</h2>
+            </div>
+            <div class="flex-container">
+                <div class="converter-inner">
+                    <div class="back-btn">
+                        <a href="index.html"><i class="fa-solid fa-circle-arrow-left"></i></a>
+                    </div>
+                    <div class="length-container">
+                        <div class="length-col">
+                            <h3>Meter to kilometer</h3>
+                            <div class="input-group" id="lgroup1">
+                                <input type="text" id="length1" placeholder="Enter the length in meter">
+                                <button class="check-btn" id="lbtn1">Check</button>
+                            </div>
+                            <div class="result" id="Result1"></div>
+
+                        </div>
+                        <div class="length-col" id="lgroup2">
+                            <h3>Kilometer to meter</h3>
+                            <div class="input-group">
+                                <input type="text" id="length2" placeholder="Enter the length in kilometer">
+                                <button class="check-btn" id="lbtn2">Check</button>
+                            </div>
+                            <div class="result" id="Result2"></div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sidebar" id="slider">
+                    <h3>Select Other Units</h3>
+                    <div class="met-units-sec">
+                        <h4>Units</h4>
+
+                        <div class="unit-group-sec1">
+
+                            <div class="unit-group">
+                                <label>Centimeter (cm)</label>
+                                <input type="radio" name="opt1" id="radio1">
+                            </div>
+                            <div class="unit-group">
+                                <label>Decimeter (dm)</label>
+                                <input type="radio" name="opt1" id="radio2">
+                            </div>
+                            <div class="unit-group">
+                                <label>Light Year (ly)</label>
+                                <input type="radio" name="opt1" id="radio3">
+                            </div>
+                            <div class="unit-group">
+                                <label>Kilometer (km)</label>
+                                <input type="radio" name="opt1" id="radio4">
+                            </div>
+                            <div class="unit-group">
+                                <label>Millimeter (mm)</label>
+                                <input type="radio" name="opt1" id="radio5">
+                            </div>
+                            <div class="unit-group">
+                                <label>Meter (m)</label>
+                                <input type="radio" name="opt1" id="radio6">
+                            </div>
+                            <div class="unit-group">
+                                <label>Yard (yd)</label>
+                                <input type="radio" name="opt1" id="radio7">
+                            </div>
+                            <div class="unit-group">
+                                <label>Foot (ft)</label>
+                                <input type="radio" name="opt1" id="radio8">
+                            </div>
+                            <div class="unit-group">
+                                <label>Mile (mi)</label>
+                                <input type="radio" name="opt1" id="radio9">
+                            </div>
+                            <div class="unit-group">
+                                <label>Inch (in)</label>
+                                <input type="radio" name="opt1" id="radio10">
+                            </div>
+                            <div class="unit-group">
+                                <label>Picometer (pm)</label>
+                                <input type="radio" name="opt1" id="radio11">
+                            </div>
+                            <div class="unit-group">
+                                <label>Nanometer (nm)</label>
+                                <input type="radio" name="opt1" id="radio12">
+                            </div>
+
+                        </div>
+
+                        <h3>To</h3>
+
+                        <div class="unit-group-sec2">
+                            <div class="unit-group">
+                                <label>Yard (yd)</label>
+                                <input type="radio" name="opt2" id="radio13">
+                            </div>
+                            <div class="unit-group">
+                                <label>Foot (ft)</label>
+                                <input type="radio" name="opt2" id="radio14">
+                            </div>
+                            <div class="unit-group">
+                                <label>Mile (mi)</label>
+                                <input type="radio" name="opt2" id="radio15">
+                            </div>
+                            <div class="unit-group">
+                                <label>Inch (in)</label>
+                                <input type="radio" name="opt2" id="radio16">
+                            </div>
+                            <div class="unit-group">
+                                <label>Picometer (pm)</label>
+                                <input type="radio" name="opt2" id="radio17">
+                            </div>
+                            <div class="unit-group">
+                                <label>Nanometer (nm)</label>
+                                <input type="radio" name="opt2" id="radio18">
+                            </div>
+                            <div class="unit-group">
+                                <label>Centimeter (cm)</label>
+                                <input type="radio" name="opt2" id="radio19">
+                            </div>
+                            <div class="unit-group">
+                                <label>Decimeter (dm)</label>
+                                <input type="radio" name="opt2" id="radio20">
+                            </div>
+                            <div class="unit-group">
+                                <label>Light Year (ly)</label>
+                                <input type="radio" name="opt2" id="radio21">
+                            </div>
+                            <div class="unit-group">
+                                <label>Kilometer (km)</label>
+                                <input type="radio" name="opt2" id="radio22">
+                            </div>
+                            <div class="unit-group">
+                                <label>Millimeter (mm)</label>
+                                <input type="radio" name="opt2" id="radio23">
+                            </div>
+                            <div class="unit-group">
+                                <label>Meter (m)</label>
+                                <input type="radio" name="opt2" id="radio24">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="sidebar-btns">
+                        <button id="submitBtn" class="submit-btn">Select</button>
+                        <button id="clearBtn" class="clear-btn">Clear</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <p>Copyright ©2022 All rights reserved | Made with <i class="fa-solid fa-heart"></i> by Swaroop Gophane
+                </p>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <script src="js/slider.js"></script>
+
+</body>
+
+</html>

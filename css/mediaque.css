@@ -1,6 +1,11 @@
+
+/* <-----------------++-------------->
+index page media query
+<-----------------++--------------> */
+
 @media (min-width:320px) and (max-width:481px)
 {
-    #main
+    .main
     {
         height: 100%;
         padding-bottom: 50px;
@@ -35,7 +40,7 @@
 }
 @media (min-width:481px) and (max-width:653px)
 {
-    #main
+    .main
     {
         height: 100%;
         padding-bottom: 50px;
@@ -56,6 +61,11 @@
 }
 @media (min-width:653px) and (max-width:769px)
 {
+    .main
+    {
+        height: 100%;
+        padding-bottom: 50px;
+    }
     .converter-container
     {
         width: 85%;
@@ -74,6 +84,11 @@
 
 @media (min-width:769px) and (max-width:960px)
 {
+    .main
+    {
+        height: 100%;
+        padding-bottom: 50px;
+    }
     .converter-container
     {
         width: 85%;
@@ -87,6 +102,11 @@
 
 @media (min-width:960px) and (max-width:1200px)
 {
+    .main
+    {
+        height: 100%;
+        padding-bottom: 50px;
+    }
     .converter-container
     {
         width: 80%;
@@ -106,4 +126,166 @@
     {
         grid-template-columns: repeat(auto-fit,minmax(147px,1fr));
     }
+}
+
+
+
+/* <-----------------++-------------->
+length page media query
+<-----------------++--------------> */
+
+
+@media (min-width:320px) and (max-width:542px)
+{
+    .sidebar-btn i
+    {
+        display: block;
+        font-size: 25px;
+    }
+    #sliderclosebtn
+    {
+        display: none;
+    }
+    .common-container
+    {
+        width: 90%;
+    }
+    .flex-container
+    {
+       flex-direction: column;
+       margin-top: 50px;
+    }
+    .flex-container .converter-inner
+    {
+        width: 90%;
+       margin: auto;
+    }
+    .length-col h3
+    {
+        
+        font-size: 25px;
+    }
+    .input-group input
+    {
+        width: 100%;
+    }
+    .input-group .check-btn
+    {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .length-container .length-col:nth-child(1)
+    {
+        margin-top: 50px;
+    }
+    .length-container .length-col:nth-child(2)
+    {
+        margin-top: 50px;
+    }
+    .sidebar
+    {
+       
+        position: fixed;
+        top: 180px;
+        left: -350px;
+        width: 55%;
+        height: 700px;
+        overflow: scroll;
+        margin-left: 0;
+    }
+}
+
+@media (min-width:543px) and (max-width:768px)
+{
+    .sidebar-btn
+    {
+       
+        top:130px;
+        left: 30px;
+
+    }
+    .sidebar-btn i
+    {
+        display: block;
+    }
+    #sliderclosebtn
+    {
+        display: none;
+    }
+    .common-container
+    {
+        width: 90%;
+    }
+    .flex-container
+    {
+        margin-top: 50px;
+    }
+    
+    .flex-container .converter-inner
+    {
+        width: 90%;
+       margin: auto;
+    }
+    .length-container .length-col:nth-child(1)
+    {
+        margin-top: 50px;
+    }
+    .length-container .length-col:nth-child(2)
+    {
+        margin-top: 50px;
+    }
+    .sidebar
+    {
+       
+        position: fixed;
+        top: 180px;
+        left: -350px;
+        width: 40%;
+        height: 700px;
+        overflow: scroll;
+        margin-left: 0;
+    }
+}
+
+@media (min-width:769px) and (max-width:960px)
+{
+    
+    .sidebar-btn i
+    {
+        display: block;
+    }
+    #sliderclosebtn
+    {
+        display: none;
+    }
+    
+    .flex-container .converter-inner
+    {
+        width: 70%;
+       margin: auto;
+    }
+    .length-container .length-col:nth-child(1)
+    {
+        margin-top: 50px;
+    }
+    .length-container .length-col:nth-child(2)
+    {
+        margin-top: 50px;
+    }
+    .sidebar
+    {
+        width: 70%;
+        position: fixed;
+        top: 180px;
+        left: -350px;
+        width: 30%;
+        height: 700px;
+        overflow: scroll;
+        margin-left: 0;
+    }
+}
+
+@media (min-width:961px) and (max-width:1200px)
+{
+
 }
