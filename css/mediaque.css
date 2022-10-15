@@ -134,9 +134,15 @@ index page media query
 length page media query
 <-----------------++--------------> */
 
-
-@media (min-width:320px) and (max-width:542px)
+@media (min-width:320px) and (max-width:365px)
 {
+    .sidebar-btn
+    {
+       
+        top:170px;
+        left: 30px;
+
+    }
     .sidebar-btn i
     {
         display: block;
@@ -185,7 +191,67 @@ length page media query
     .sidebar
     {
        
-        position: fixed;
+        position: absolute;
+        top: 180px;
+        left: -350px;
+        width: 55%;
+        height: 700px;
+        overflow: scroll;
+        margin-left: 0;
+    }
+}
+@media (min-width:365px) and (max-width:542px)
+{
+    
+    .sidebar-btn i
+    {
+        display: block;
+        font-size: 25px;
+    }
+    #sliderclosebtn
+    {
+        display: none;
+    }
+    .common-container
+    {
+        width: 90%;
+    }
+    .flex-container
+    {
+       flex-direction: column;
+       margin-top: 50px;
+    }
+    .flex-container .converter-inner
+    {
+        width: 90%;
+       margin: auto;
+    }
+    .length-col h3
+    {
+        
+        font-size: 25px;
+    }
+    .input-group input
+    {
+        width: 100%;
+    }
+    .input-group .check-btn
+    {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .length-container .length-col:nth-child(1)
+    {
+        margin-top: 50px;
+    }
+    .length-container .length-col:nth-child(2)
+    {
+        margin-top: 50px;
+    }
+    .sidebar
+    {
+       
+        position: absolute;
         top: 180px;
         left: -350px;
         width: 55%;
@@ -237,7 +303,7 @@ length page media query
     .sidebar
     {
        
-        position: fixed;
+        position: absolute;
         top: 180px;
         left: -350px;
         width: 40%;
@@ -275,7 +341,7 @@ length page media query
     .sidebar
     {
         width: 70%;
-        position: fixed;
+        position: absolute;
         top: 180px;
         left: -350px;
         width: 30%;
