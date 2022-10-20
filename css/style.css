@@ -190,14 +190,17 @@ Length page style
 {
    padding: 70px 20px 30px 20px;
 }
-.length-container .length-col:nth-child(1)
+
+#lgroup3,#lgroup4
+{
+    display: none;
+}
+
+.length-container .length-col
 {
     margin-top: 100px;
 }
-.length-container .length-col:nth-child(2)
-{
-    margin-top: 100px;
-}
+
 .length-col h3
 {
     color: rgb(70, 60, 60);
@@ -240,6 +243,7 @@ Length page style
     background: #fff;
     margin-top: 40px;
 }
+
 
 
 .sidebar

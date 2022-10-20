@@ -160,13 +160,13 @@ length page media query
     /* --------scroll bar style------- */
 
 
-    .sidebar-btn
+    /* .sidebar-btn
     {
        
         top:170px;
         left: 30px;
 
-    }
+    } */
     .sidebar-btn i
     {
         display: block;
@@ -204,14 +204,11 @@ length page media query
         margin-top: 20px;
         margin-left: 0px;
     }
-    .length-container .length-col:nth-child(1)
+    .length-container .length-col
     {
         margin-top: 50px;
     }
-    .length-container .length-col:nth-child(2)
-    {
-        margin-top: 50px;
-    }
+    
     .sidebar
     {
        
@@ -223,6 +220,7 @@ length page media query
         overflow-y: scroll;
         margin-left: 0;
     }
+
 }
 @media (min-width:365px) and (max-width:542px)
 {
@@ -286,14 +284,11 @@ length page media query
         margin-top: 20px;
         margin-left: 0px;
     }
-    .length-container .length-col:nth-child(1)
+    .length-container .length-col
     {
         margin-top: 50px;
     }
-    .length-container .length-col:nth-child(2)
-    {
-        margin-top: 50px;
-    }
+    
     .sidebar
     {
        
@@ -361,14 +356,11 @@ length page media query
         width: 90%;
        margin: auto;
     }
-    .length-container .length-col:nth-child(1)
+    .length-container .length-col
     {
         margin-top: 50px;
     }
-    .length-container .length-col:nth-child(2)
-    {
-        margin-top: 50px;
-    }
+    
     .sidebar
     {
        
@@ -422,14 +414,11 @@ length page media query
         width: 70%;
        margin: auto;
     }
-    .length-container .length-col:nth-child(1)
+    .length-container .length-col
     {
         margin-top: 50px;
     }
-    .length-container .length-col:nth-child(2)
-    {
-        margin-top: 50px;
-    }
+    
     .sidebar
     {
         width: 70%;

@@ -3,6 +3,8 @@ var Slider = document.getElementById('slider');
 var sliderBtn = document.getElementById('sliderbtn');
 var sliderClose = document.getElementById('sliderclosebtn');
 
+
+
 sliderBtn.onclick = function()
 {
     Slider.style.left = "-350px";
@@ -25,3 +27,4 @@ sliderClose.onclick = function()
         sliderClose.style.display ="none"
     }
 }
+
