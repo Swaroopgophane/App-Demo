@@ -8,6 +8,12 @@ var lGroup1 = document.getElementById('lgroup1');
 var lGroup2 = document.getElementById('lgroup2');
 var lGroup3 = document.getElementById('lgroup3');
 var lGroup4 = document.getElementById('lgroup4');
+var lGroup5 = document.getElementById('lgroup5');
+var lGroup6 = document.getElementById('lgroup6');
+var lGroup7 = document.getElementById('lgroup7');
+var lGroup8 = document.getElementById('lgroup8');
+var lGroup9 = document.getElementById('lgroup9');
+var lGroup10 = document.getElementById('lgroup10');
 
 
 var radioBtn1 = document.getElementById('radio1');
@@ -43,17 +49,97 @@ var showBtn = document.getElementById('submitBtn');
 
 showBtn.addEventListener('click',()=>{
 
+// centimeter to yard
+
     if(radioBtn1.checked == true && radioBtn13.checked == true)
     {
         lGroup1.style.display = 'none';
         lGroup2.style.display = 'none';
         lGroup3.style.display = 'block';
         lGroup4.style.display = 'block';
+        lGroup5.style.display = 'none';
+        lGroup6.style.display = 'none';
+        lGroup7.style.display = 'none';
+        lGroup8.style.display = 'none';
+        lGroup9.style.display = 'none';
+        lGroup10.style.display = 'none';
 
         if(radioBtn1.checked == true || radioBtn13.checked == true)
         {
             radioBtn1.checked = false;
             radioBtn13.checked = false;
+        }
+
+        autoclose();
+    }
+
+    // centimeter to foot
+
+    if(radioBtn1.checked == true && radioBtn14.checked == true)
+    {
+        lGroup1.style.display = 'none';
+        lGroup2.style.display = 'none';
+        lGroup3.style.display = 'none';
+        lGroup4.style.display = 'none';
+        lGroup5.style.display = 'block';
+        lGroup6.style.display = 'block';
+        lGroup7.style.display = 'none';
+        lGroup8.style.display = 'none';
+        lGroup9.style.display = 'none';
+        lGroup10.style.display = 'none';
+
+        if(radioBtn1.checked == true || radioBtn14.checked == true)
+        {
+            radioBtn1.checked = false;
+            radioBtn14.checked = false;
+        }
+
+        autoclose();
+    }
+
+    // centimeter to mile
+
+    if(radioBtn1.checked == true && radioBtn15.checked == true)
+    {
+        lGroup1.style.display = 'none';
+        lGroup2.style.display = 'none';
+        lGroup3.style.display = 'none';
+        lGroup4.style.display = 'none';
+        lGroup5.style.display = 'none';
+        lGroup6.style.display = 'none';
+        lGroup7.style.display = 'block';
+        lGroup8.style.display = 'block';
+        lGroup9.style.display = 'none';
+        lGroup10.style.display = 'none';
+
+        if(radioBtn1.checked == true || radioBtn15.checked == true)
+        {
+            radioBtn1.checked = false;
+            radioBtn15.checked = false;
+        }
+
+        autoclose();
+    }
+
+    // centimeter to inch
+
+    if(radioBtn1.checked == true && radioBtn16.checked == true)
+    {
+        lGroup1.style.display = 'none';
+        lGroup2.style.display = 'none';
+        lGroup3.style.display = 'none';
+        lGroup4.style.display = 'none';
+        lGroup5.style.display = 'none';
+        lGroup6.style.display = 'none';
+        lGroup7.style.display = 'none';
+        lGroup8.style.display = 'none';
+        lGroup9.style.display = 'block';
+        lGroup10.style.display = 'block';
+
+        if(radioBtn1.checked == true || radioBtn16.checked == true)
+        {
+            radioBtn1.checked = false;
+            radioBtn16.checked = false;
         }
 
         autoclose();

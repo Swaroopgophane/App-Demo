@@ -191,7 +191,7 @@ Length page style
    padding: 70px 20px 30px 20px;
 }
 
-#lgroup3,#lgroup4
+#lgroup3,#lgroup4,#lgroup5,#lgroup6,#lgroup7,#lgroup8,#lgroup9,#lgroup10
 {
     display: none;
 }
@@ -239,9 +239,11 @@ Length page style
 .result
 {
     width: 100%;
-    height: 50px;
     background: #fff;
     margin-top: 40px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 10px;
 }
 
 
